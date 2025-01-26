@@ -7,20 +7,22 @@ Original file is located at
     https://colab.research.google.com/drive/105q3d_LtCWy8f9KX-99mnZD5nUBuT_0D
 
 **Instructions to Follow (Failing to follow these will result mark deductions).**
-1. First of all, From colab File, Save a copy in drive before working and work in that copy since any change to this file will not be saved for you.
-2. You can not use any built-in function except len()
 
-3. You can not use any other python collections except array (e.g: tuple, dictionaries etc.).
+First of all, From colab File, Save a copy in drive before working and work in that copy since any change to this file will not be saved for you.
 
-4. We will initialize a new array using numpy library. We have to mention the fixed size during initialization. There might be 4 approaches.
+You can not use any built-in function except len()
 
- i. arr = np.array([None] * 10) #Initializing an array length 10 with values None.
+You can not use any other python collections except array (e.g: tuple, dictionaries etc.).
 
- ii. arr = np.array([0] * 10) #Initializing an array length 10 with values zero.
+We will initialize a new array using numpy library. We have to mention the fixed size during initialization. There might be 4 approaches.
 
- iii. arr = np.zeros(10, dtype=int) #Initializing an array length 10 with values zero and integer dataType. By default, dtype is float.
+i. arr = np.array([None] * 10) #Initializing an array length 10 with values None.
 
- iv. arr = np.array([10, 20, 30, 40]) #Initializing an array length 4 with the values.
+ii. arr = np.array([0] * 10) #Initializing an array length 10 with values zero.
+
+iii. arr = np.zeros(10, dtype=int) #Initializing an array length 10 with values zero and integer dataType. By default, dtype is float.
+
+iv. arr = np.array([10, 20, 30, 40]) #Initializing an array length 4 with the values.
 """
 
 # You must run this cell to install dependency
